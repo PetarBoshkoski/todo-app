@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  background-color: rosybrown;
+}
+#root {
+  background-color: rosybrown;
+}
+.hidden {
+  position: absolute;
+  left: -10000px;
+}
+.react-time-picker {
+  margin: 0px 10px 15px 0px;
+  height: 100%;
+  border-bottom: 1px solid #ca22a4;
+  font-weight: bold;
+}
+.react-time-picker.react-time-picker * {
+  border: none;
+}
+
+select {
+  border: none;
+  border-bottom: 1px solid #ca22a4;
+  font-weight: bold;
+  text-align: center;
+  text-align-last: center;
+  -moz-text-align-last: center;
+}
+
+select:focus {
+  border-bottom: 1px solid #ca22a4;
+  outline: none;
+}
+
+i {
+  cursor: pointer;
+  color: red;
+}
