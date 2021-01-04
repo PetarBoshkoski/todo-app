@@ -11,6 +11,12 @@ export const HorizontalLine = styled.hr``;
 export const TodosStatus = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
+
+  @media screen and (max-width: 432px) {
+    grid-template-columns: auto;
+    font-weight: normal;
+    font-size: 14px;
+  }
 `;
 
 export const TodoElement = styled.p`
